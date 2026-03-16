@@ -25,13 +25,13 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+- [ ] Describe the game's purpose. ~ The games purpose was to make the player guess a random number correctly. It gives you hints for each guess. 
+- [ ] Detail which bugs you found. ~ A few bugs I found includes hints being switched around from the outputs, having int and str variables being mixed up, and having difficulty levels returning different random values. 
+- [ ] Explain what fixes you applied. ~ Fixes I applied were changing the 
 
 ## 📸 Demo
 
-- [ ] [Insert a screenshot of your fixed, winning game here]
+- [ ] [Insert a !=[[alt text](<Screenshot 2026-03-15 at 5.46.44 PM.png>)]
 
 ## 🚀 Stretch Features
 

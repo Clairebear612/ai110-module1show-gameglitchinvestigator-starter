@@ -28,7 +28,7 @@ AI tools that I used on this project were Claude. I used AI as a teamate by goin
   and what it showed you about your code.
 - Did AI help you design or understand any tests? How?
 
-How I verified my repairs is doing code reviews, asked AI to do pytest in the test_game_logic, tested a couple of bugs like parse_guess, update_score, and atempt_number functions,and I ran the test_game_logic.py and got an 11/11 to passing manually with a little bit of help from claude code. 
+How I verified my repairs is doing code reviews, asked AI to do pytest in the test_game_logic, tested a couple of bugs like parse_guess, update_score, and atempt_number functions,and I ran the test_game_logic.py and got an 11/11 to passing manually with the help from claude code. 
 
 ## 4. What did you learn about Streamlit and state?
 
@@ -36,7 +36,7 @@ How I verified my repairs is doing code reviews, asked AI to do pytest in the te
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
 - What change did you make that finally gave the game a stable secret number?
 
----
+The secret number kept changing in the original app because it kept on generating the secret number on every rerun within the game. Streamlit session code block allows the number to generate only once within the game. If someone has never used streamlit I would explain it to them like they were five years old. I would explain it to them that streamlit rerun gets erased and redrawn everytime someone does something like clicking a number or a script, or anything. Session state within the game means that a number will always have the same value, no matter how many times Streamlit reruns the app. A session state is something that never gets wiped out. 
 
 ## 5. Looking ahead: your developer habits
 
@@ -44,3 +44,5 @@ How I verified my repairs is doing code reviews, asked AI to do pytest in the te
   - This could be a testing habit, a prompting strategy, or a way you used Git.
 - What is one thing you would do differently next time you work with AI on a coding task?
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+
+One habit or strategy from this project that I want to reuse in the future is having AI as my partner to colaborating and helping me debug my code and understanding the logic at the same time, in future labs/ projects I want to learn more about what I am doing while debugging. I wanna learn how to also set up my projects correctly before getting started to anything. One thing I would do differently next time I would work on AI is maybe being a little more dependent on AI while debugging my code. I have never cheated with AI, but usually I learn best to my knowledge by having things I am learning being repeated to myself, and then applying it as my own to other assignments. During this project, my different perspective views on AI when it generates code, as it always has been before I even started this project is that AI is not a replaceable machine that can write every single code for you. AI is only there for you to help assist, and debug code, or anything else you ask for. AI like chat GPT, or Claude code, or even copilot can be help to your assistance with technology, when you are direct, and specific with your project while running the code. AI did give me a few wrong turns like leftover bugs, and everything but it was a pretty easy fix with AI around!!
